@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Tempo64</title>
+  <meta name="description" content="Help, FAQs, and contact info for Tempo64 — chess games as vertical shorts." />
+  <link rel="icon" type="image/png" href="icon.png" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" style="padding: 64px 0 32px;">
+    <div class="container">
+      <h1 style="font-size: 36px; margin-bottom: 8px;">Tempo64 Support</h1>
+      <p class="subtitle" style="margin-bottom: 8px;">We respond to every email, usually within 24 hours.</p>
+      <p style="margin: 0;"><a href="index.html">← Back to Tempo64</a></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="container section">
+      <h2>Contact</h2>
+      <p class="lede">
+        Got a bug, a feature request, a chess game that won't parse, or just want to share what you made?
+        Email <a href="mailto:chuma.okoro76@gmail.com?subject=Tempo64%20Support">chuma.okoro76@gmail.com</a>
+        with a quick description of what happened and (if relevant) the PGN or chess.com URL you were trying
+        to render. Screenshots help too.
+      </p>
+    </section>
+
+    <section class="container section">
+      <h2>Common questions</h2>
+
+      <h3 style="margin-top: 24px;">My PGN won't parse — what's wrong?</h3>
+      <p>
+        Tempo64 expects standard PGN tag pairs (Event / Site / Date / White / Black / Result) followed by
+        the move list. If a Chess.com or Lichess export is failing, try copying the moves manually —
+        sometimes site-specific annotations or unicode characters trip the parser. If the same PGN
+        works elsewhere but not in Tempo64, email it to us and we'll fix it.
+      </p>
+
+      <h3 style="margin-top: 24px;">A chess.com URL won't import.</h3>
+      <p>
+        Tempo64 supports <code>/game/&lt;id&gt;</code> and <code>/game/live/&lt;id&gt;</code> URLs — the share
+        links chess.com gives you for player games. Archived master games at <code>/games/view/&lt;id&gt;</code>
+        aren't supported (chess.com doesn't expose them via the public API); for those, copy the PGN directly
+        from the game page and paste it into the app.
+      </p>
+
+      <h3 style="margin-top: 24px;">My render finished but the video isn't in Photos.</h3>
+      <p>
+        Make sure Tempo64 has permission to add to your photo library — Settings → Tempo64 → Photos → "Add Only".
+        The video also stays in the app's library (Welcome screen → Your videos) for 7 days regardless; you can
+        save to Photos from there at any time.
+      </p>
+
+      <h3 style="margin-top: 24px;">Voice or face-cam commentary isn't recording.</h3>
+      <p>
+        Check microphone and camera permissions in Settings → Tempo64. The first time you record, iOS asks for
+        access; if you denied it, the toggles will be off and you'll need to flip them back on manually.
+      </p>
+
+      <h3 style="margin-top: 24px;">How do I cancel my Studio subscription?</h3>
+      <p>
+        Inside the app: Settings → Manage Subscription. Or on your iPhone: Settings → [Your Name] → Subscriptions →
+        Tempo64 → Cancel. You keep Studio access until the end of the current billing period.
+      </p>
+
+      <h3 style="margin-top: 24px;">I subscribed but Studio features aren't unlocking.</h3>
+      <p>
+        Tap Restore Purchases in the app's Settings screen — this re-syncs your StoreKit entitlement. If that
+        doesn't fix it within a minute, email us with the Apple ID email you used to subscribe and we'll dig in.
+      </p>
+    </section>
+
+    <section class="container section">
+      <h2>Bug reports</h2>
+      <p>
+        For bugs, the most useful things to include in an email are:
+      </p>
+      <ul>
+        <li>What you did (e.g., "Pasted this chess.com URL and tapped Load this game")</li>
+        <li>What happened (e.g., "Got an error 'invalid tag format'")</li>
+        <li>What you expected (e.g., "Expected the game to load on the Review screen")</li>
+        <li>Your iPhone/iPad model + iOS version (Settings → General → About)</li>
+        <li>The Tempo64 version (Tempo64 → Settings → About → Version)</li>
+      </ul>
+    </section>
+
+    <section class="container section">
+      <h2>Privacy &amp; Terms</h2>
+      <p>
+        <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (EULA)</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Tempo64.</p>
+      <nav>
+        <a href="mailto:chuma.okoro76@gmail.com?subject=Tempo64%20Support">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
