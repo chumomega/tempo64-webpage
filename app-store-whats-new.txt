@@ -1,0 +1,27 @@
+Introducing Tempo64 Studio. Plus a big upgrade for everyone.
+
+TEMPO64 STUDIO (new)
+A subscription tier that unlocks unlimited voice and face-cam commentary, watermark-free exports, and a gold Studio app icon for your home screen. Available monthly or yearly — cancel anytime in Settings.
+
+FACE-CAM COMMENTARY (Studio)
+Record up to 30 seconds of yourself talking about any move. Your video composites as a circular bubble over the board, with a thought-bubble trail pointing at the move under discussion and a synced waveform showing how long the talk runs. Same hold-to-record + drag-to-lock gesture as voice commentary, with haptic feedback at every step.
+
+VOICE COMMENTARY (Studio)
+Record narration on any move; the export splices it in with a synced animated waveform card. Free tier includes one voice clip and one face-cam clip per game so you can try before subscribing.
+
+ANIMATED PIECE MOVES
+Pieces now slide from square to square instead of cutting instantly. The capture, check, and checkmate SFX land when the piece arrives at its destination — even at fast pace, you can track every move.
+
+QUIET BEAT AFTER COMMENTARY
+A brief pause between your commentary and the next move so the action stays readable. Less whiplash, more breathing room.
+
+SETTINGS
+New screen for managing your subscription (cancel or switch tiers without leaving the app), toggling the gold Studio home-screen icon on or off, and finding privacy and terms in one place.
+
+LIBRARY POLISH
+Long-press a video for a delete option with confirmation — in addition to the existing swipe-to-delete.
+
+BUG FIXES
+- Imports now handle chess.com PGN exports with blank Site/TimeControl tags.
+- Clearer error when you paste an archived master-games URL.
+- Video commentary now shows the animated waveform in sync with the audio.

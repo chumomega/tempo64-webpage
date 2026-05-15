@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy — Tempo64</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" style="padding: 64px 0 32px;">
+    <div class="container">
+      <h1 style="font-size: 36px; margin-bottom: 8px;">Privacy Policy</h1>
+      <p class="subtitle" style="margin-bottom: 8px;">Last updated: <span id="updated">2026-04-28</span></p>
+      <p style="margin: 0;"><a href="index.html">← Back to Tempo64</a></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="container section">
+      <h2>The short version</h2>
+      <p class="lede">
+        Tempo64 runs entirely on your device. We don't have a server. We don't collect your games.
+        We don't track you. The data you put into the app — your PGN, your generated videos,
+        your audio mix — never leaves your iPhone or iPad unless you explicitly share it via
+        the share sheet or save it to Photos.
+      </p>
+    </section>
+
+    <section class="container section">
+      <h2>What we don't do</h2>
+      <ul style="font-size: 16px; color: var(--text-dim); padding-left: 22px; margin: 0;">
+        <li>We do not have a backend server that processes your games.</li>
+        <li>We do not collect analytics about how you use the app.</li>
+        <li>We do not have third-party SDKs for advertising, attribution, or tracking.</li>
+        <li>We do not collect personal information like your name, email, or chess account.</li>
+        <li>We do not sell, share, or otherwise transmit any user data, because we don't have any.</li>
+      </ul>
+    </section>
+
+    <section class="container section">
+      <h2>Permissions Tempo64 asks for</h2>
+      <p style="margin: 0 0 14px; color: var(--text-dim);">
+        Tempo64 only requests permissions necessary for the features you use:
+      </p>
+      <ul style="font-size: 16px; color: var(--text-dim); padding-left: 22px; margin: 0;">
+        <li>
+          <strong>Photo Library — Add Only:</strong> required so the app can save the
+          videos it generates into your Photos library. Tempo64 cannot read your existing
+          photos. The permission is requested the first time you tap "Save to Photos".
+        </li>
+        <li>
+          <strong>Notifications:</strong> optional. Used solely to send you a local
+          notification when a render finishes while you're in another app. The notification
+          is generated and posted by your iPhone — it does not go through any server.
+          Decline at the prompt and the app continues to work.
+        </li>
+      </ul>
+    </section>
+
+    <section class="container section">
+      <h2>Local processing</h2>
+      <p style="font-size: 16px; color: var(--text-dim);">
+        PGN parsing, board rendering, audio mixing, and video encoding all happen on
+        your device using Apple's native frameworks (AVFoundation, SwiftUI, Core Graphics)
+        and an open-source chess library. The bundled sound effects are included with the
+        app and do not require a network connection.
+      </p>
+    </section>
+
+    <section class="container section">
+      <h2>Children's privacy</h2>
+      <p style="font-size: 16px; color: var(--text-dim);">
+        Tempo64 does not knowingly collect personal information from anyone, including
+        children under 13. The app is suitable for all ages.
+      </p>
+    </section>
+
+    <section class="container section">
+      <h2>Changes to this policy</h2>
+      <p style="font-size: 16px; color: var(--text-dim);">
+        If a future version of Tempo64 adds features that change how data is handled
+        (for example, an optional cloud backup), this policy will be updated and the
+        change called out in the app's release notes. Until then, the policy above stands.
+      </p>
+    </section>
+
+    <section class="container section">
+      <h2>Contact</h2>
+      <p style="font-size: 16px; color: var(--text-dim);">
+        Questions or concerns?
+        <a href="mailto:chuma.okoro76@gmail.com?subject=Tempo64%20Support">Email support</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Tempo64.</p>
+      <nav>
+        <a href="mailto:chuma.okoro76@gmail.com?subject=Tempo64%20Support">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

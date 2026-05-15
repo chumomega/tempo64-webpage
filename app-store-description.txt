@@ -1,0 +1,51 @@
+Turn any chess game into a vertical short with cinematic sound, sliding pieces, and voice or face-cam commentary — built for TikTok, Reels, and YouTube Shorts.
+
+Tempo64 takes the PGN of any chess game (or a chess.com link) and turns it into a 9:16 video. Every piece slides into place with a satisfying thud. Captures punch with a bite. Checks land with a dramatic "fahh." Checkmate rings out with a tail you'll want to share. Optional voice or face-cam commentary on any move you want to talk about.
+
+KEY FEATURES
+
+- Paste any PGN — works with Chess.com, Lichess, or any standard PGN export
+- Paste a chess.com URL — Tempo64 fetches the moves automatically
+- Vertical 9:16 (1080×1920) MP4 ready for TikTok, Reels, and YouTube Shorts
+- Animated piece slides on every move so the action reads at any pace
+- Cinematic sound design: 5 check sounds, 5 checkmate sounds, 3 capture sounds, plus thuds and attack stingers
+- Three board themes: Classic, Lichess, Tournament
+- File letters (a-h) and rank numbers (1-8) drawn on the board
+- Adjustable pace: Slow, Normal, or Fast
+- Live preview before render — tap or scrub through the game ply by ply
+- Background rendering — leave the app, get a notification when it's ready
+- Save to Photos or share via the iOS share sheet
+- Your library of recent renders, with swipe-to-delete and long-press to remove
+
+TEMPO64 STUDIO
+
+Subscribers unlock:
+
+- Voice commentary on any move — record narration in-app, mixed into the export with a synced animated waveform card
+- Face-cam commentary — record a video reaction that composites as a circular bubble over the board, with a thought-bubble trail pointing at the move under discussion
+- Watermark-free exports
+- Gold Studio app icon
+
+Available as a monthly or yearly subscription. Cancel anytime in Settings.
+
+PERFECT FOR
+
+- Chess content creators who want to ship faster
+- Players who want to share their best wins
+- Coaches narrating tactical moments for students
+- Anyone who wants their checkmate to hit the way it should
+
+HOW IT WORKS
+
+1. Paste a PGN or a chess.com URL (we show you how)
+2. Review the parsed game with the built-in board scrubber
+3. Customize theme, sounds, and pace; add voice or face-cam commentary on any move
+4. Render, then save to Photos or share
+
+PRIVACY
+
+Tempo64 runs entirely on your device. Your PGN, your generated videos, your audio mix, your voice and face-cam recordings — everything stays local. We don't have a server. We don't collect your games. We don't track you.
+
+Make your next checkmate hit different. Download Tempo64 and turn your chess into something worth sharing.
+
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
