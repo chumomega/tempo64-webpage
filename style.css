@@ -104,7 +104,7 @@ a:hover { text-decoration: underline; }
 
 /* Sections */
 .section {
-  padding: 64px 0;
+  padding-block: 64px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -235,7 +235,7 @@ footer nav a:hover { color: var(--accent); }
   .hero h1 { font-size: 40px; }
   .tagline { font-size: 18px; }
   .subtitle { font-size: 15px; }
-  .section { padding: 48px 0; }
+  .section { padding-block: 48px; }
   .section h2 { font-size: 24px; }
 
   /* Screenshots → horizontal snap-scroll carousel.
