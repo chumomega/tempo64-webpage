@@ -29,7 +29,7 @@ a:hover { text-decoration: underline; }
 .container {
   max-width: 920px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 32px;
 }
 
 /* Hero */
@@ -231,8 +231,6 @@ footer nav a:hover { color: var(--accent); }
 
 /* Mobile */
 @media (max-width: 600px) {
-  .container { padding: 0 32px; }
-
   .hero { padding: 64px 0 56px; }
   .hero h1 { font-size: 40px; }
   .tagline { font-size: 18px; }
