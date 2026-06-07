@@ -29,7 +29,7 @@ a:hover { text-decoration: underline; }
 .container {
   max-width: 760px;
   margin: 0 auto;
-  padding: 0 clamp(24px, 6vw, 56px);
+  padding: 0 clamp(40px, 8vw, 64px);
 }
 
 /* Hero */
@@ -248,8 +248,8 @@ footer nav a:hover { color: var(--accent); }
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     gap: 14px;
-    padding: 4px clamp(24px, 6vw, 56px) 12px;
-    margin: 0 calc(-1 * clamp(24px, 6vw, 56px));
+    padding: 4px clamp(40px, 8vw, 64px) 12px;
+    margin: 0 calc(-1 * clamp(40px, 8vw, 64px));
     justify-content: flex-start;
   }
   .screenshot-grid img {
