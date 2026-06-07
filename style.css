@@ -231,6 +231,8 @@ footer nav a:hover { color: var(--accent); }
 
 /* Mobile */
 @media (max-width: 600px) {
+  .container { padding: 0 32px; }
+
   .hero { padding: 64px 0 56px; }
   .hero h1 { font-size: 40px; }
   .tagline { font-size: 18px; }
@@ -248,8 +250,8 @@ footer nav a:hover { color: var(--accent); }
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     gap: 14px;
-    padding: 4px 24px 12px;
-    margin: 0 -24px;
+    padding: 4px 32px 12px;
+    margin: 0 -32px;
     justify-content: flex-start;
   }
   .screenshot-grid img {
