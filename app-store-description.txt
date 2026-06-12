@@ -1,50 +1,59 @@
-Turn any chess game into a vertical short with cinematic sound, sliding pieces, and voice or face-cam commentary — built for TikTok, Reels, and YouTube Shorts.
+Turn any chess game into a vertical short with cinematic sound, sliding pieces, capture cutscenes, face-cam or voice commentary, and AI-written captions — built for TikTok, Instagram, and YouTube.
 
-Tempo64 takes the PGN of any chess game (or a chess.com link) and turns it into a 9:16 video. Every piece slides into place with a satisfying thud. Captures punch with a bite. Checks land with a dramatic "fahh." Checkmate rings out with a tail you'll want to share. Optional voice or face-cam commentary on any move you want to talk about.
+Tempo64 takes any PGN (or a chess.com link) and turns it into a 9:16 video for TikTok, Instagram Reels, or YouTube Shorts. Pieces slide with a thud, captures punch, checks exhale, checkmate rings out. Hook viewers with a 5-second climax teaser — a face-cam clip, the game's ending, or a cinematic cutscene that matches one of your captures. Talk over moves with face-cam or voice commentary, and let Apple Intelligence write your post caption — all on-device.
 
 KEY FEATURES
 
-- Paste any PGN — works with Chess.com, Lichess, or any standard PGN export
-- Paste a chess.com URL — Tempo64 fetches the moves automatically
-- Vertical 9:16 (1080×1920) MP4 ready for TikTok, Reels, and YouTube Shorts
-- Animated piece slides on every move so the action reads at any pace
-- Cinematic sound design: 5 check sounds, 5 checkmate sounds, 3 capture sounds, plus thuds and attack stingers
-- Three board themes: Classic, Lichess, Tournament
-- File letters (a-h) and rank numbers (1-8) drawn on the board
-- Adjustable pace: Slow, Normal, or Fast
-- Live preview before render — tap or scrub through the game ply by ply
+- Paste any PGN — Chess.com, Lichess, or any standard export — or paste a chess.com URL and we fetch the moves
+- Vertical 9:16 (1080x1920) MP4 ready for TikTok, Instagram, and YouTube
+- Cinematic capture cutscenes: short dramatic clips spliced in on qualifying captures, with their own audio and a film-style fade-in
+- On-device AI heading and 2–3 sentence synopsis via Apple Intelligence (iPhone 15 Pro+, M-series iPad). Tap Regenerate to cycle angles, copy-paste with hashtags pre-baked.
+- Engine-graded move quality and a live eval bar painted into the exported video — Great, Good, Mistake, Blunder, tied to the swing
+- Brilliant/Blunder badges optional — keep the engine audio + eval bar without the over-board stickers
+- Cartoon flame burst on the mating piece, with "nice" and "oof" stingers on Great and Blunder moves
+- Animated piece slides on every move
+- 5-second climax teaser: Auto, Game ending, any face-cam clip, or any cinematic cutscene your game qualifies for
+- Library Regenerate — drop a saved game back into Review with one tap, re-render with different sounds, themes, or commentary
+- Tap-to-trim: scrub to a position, tap Set start or Set end to anchor that ply
+- Live render progress ring with a percentage readout
+- Unified sound system: 10 sounds (Thud, Fahh, Deep Fahh, Bruh, Rizz, Chomp, Vine Boom, Gunshot, Plug, TikTok Core) across seven banks
+- Three board themes, adjustable pace, and sound density
+- Smart pacing tightens long quiet stretches without speeding up the dramatic moments
+- Sounds never overlap into the next move, even at Extra Fast pace
 - Background rendering — leave the app, get a notification when it's ready
 - Save to Photos or share via the iOS share sheet
-- Your library of recent renders, with swipe-to-delete and long-press to remove
 
 TEMPO64 STUDIO
 
 Subscribers unlock:
 
-- Voice commentary on any move — record narration in-app, mixed into the export with a synced animated waveform card
-- Face-cam commentary — record a video reaction that composites as a circular bubble over the board, with a thought-bubble trail pointing at the move under discussion
+- Cinematic capture cutscenes (up to 3 for the winning side, 2 for the loser) — sparse, scenario-matched, mixed at the right beat
+- Pick any qualifying cutscene as your climax teaser intro
+- Face-cam commentary on any move — a 30-second video reaction composited as a circular bubble over the board, placed to dodge the active squares
+- Voice commentary on any move — narration mixed in with a synced animated waveform card
 - Watermark-free exports
-- Gold Studio app icon
+- Gold Studio home-screen icon (toggle in Settings)
 
-Available as a monthly or yearly subscription. Cancel anytime in Settings.
+Free tier: one voice clip and one face-cam clip per game, plus press-and-hold previews of every cutscene so you can audition the cinematic before you subscribe.
+
+Monthly or yearly subscription. Cancel anytime in Settings.
 
 PERFECT FOR
 
-- Chess content creators who want to ship faster
-- Players who want to share their best wins
+- Chess creators shipping to TikTok, Instagram, or YouTube
+- Players sharing their best wins
 - Coaches narrating tactical moments for students
-- Anyone who wants their checkmate to hit the way it should
 
 HOW IT WORKS
 
-1. Paste a PGN or a chess.com URL (we show you how)
-2. Review the parsed game with the built-in board scrubber
-3. Customize theme, sounds, and pace; add voice or face-cam commentary on any move
-4. Render, then save to Photos or share
+1. Paste a PGN or a chess.com URL
+2. Review the parsed game; pick a trim range if you want
+3. Customize theme, sounds, pace, the climax teaser, and cinematic cutscenes; add face-cam or voice commentary on any move
+4. Render, then save to Photos or share to TikTok, Instagram, or YouTube
 
 PRIVACY
 
-Tempo64 runs entirely on your device. Your PGN, your generated videos, your audio mix, your voice and face-cam recordings — everything stays local. We don't have a server. We don't collect your games. We don't track you.
+Tempo64 runs entirely on your device. Your PGN, videos, audio mix, and recordings stay local. No server. No tracking.
 
 Make your next checkmate hit different. Download Tempo64 and turn your chess into something worth sharing.
 

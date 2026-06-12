@@ -1,27 +1,19 @@
-Introducing Tempo64 Studio. Plus a big upgrade for everyone.
+v1.10 — Cinematic capture cutscenes, library regenerate, badge toggle, smarter speech bubbles.
 
-TEMPO64 STUDIO (new)
-A subscription tier that unlocks unlimited voice and face-cam commentary, watermark-free exports, and a gold Studio app icon for your home screen. Available monthly or yearly — cancel anytime in Settings.
+CINEMATIC CAPTURE CUTSCENES
+On qualifying captures — your pawn taking their pawn, your knight downing their bishop, your queen trading queens, and more — Tempo64 now splices a short cinematic clip into the export. Each clip plays with its own audio and fades in from black, so the cut feels filmic instead of a hard scene change. Coverage is sparse by design: a positional game gets none, a scrappy game with the right captures gets the dramatic moments. The winning side picks up to 3 cutscenes, the losing side up to 2, with at least 5 plies between picks so they never land back to back. Studio.
 
-FACE-CAM COMMENTARY (Studio)
-Record up to 30 seconds of yourself talking about any move. Your video composites as a circular bubble over the board, with a thought-bubble trail pointing at the move under discussion and a synced waveform showing how long the talk runs. Same hold-to-record + drag-to-lock gesture as voice commentary, with haptic feedback at every step.
+CUTSCENE AS YOUR CLIMAX TEASER
+The Teaser source picker (under "Show climax teaser") now lists every cutscene THIS game qualifies for. Pick one and it plays at the very start of the export — its own dramatic audio carrying the entrance — then the game replays from move 1. The same cutscene also fires later in the game when its capture happens, so the teaser is literally a preview of what's coming. Press-and-hold any cutscene row to play the actual clip, free or Studio; tap on Studio applies it as your teaser. The picker only surfaces cutscenes your game's captures actually qualify for, so the choices are always cohesive with what'll be in your video.
 
-VOICE COMMENTARY (Studio)
-Record narration on any move; the export splices it in with a synced animated waveform card. Free tier includes one voice clip and one face-cam clip per game so you can try before subscribing.
+LIBRARY REGENERATE
+"Your videos" gets a long-press and leading-swipe menu with three new actions: Regenerate from this game, Copy PGN, and (when the row came from a chess.com URL) Copy chess.com link. Regenerate drops you back at Review with the original game hydrated, so you can re-trim, swap themes and sounds, add or change commentary, and render a fresh version with everything new in v1.10. Rows that came from chess.com now show a small "chess.com" tag in the metadata strip too.
 
-ANIMATED PIECE MOVES
-Pieces now slide from square to square instead of cutting instantly. The capture, check, and checkmate SFX land when the piece arrives at its destination — even at fast pace, you can track every move.
+BRILLIANT/BLUNDER BADGE TOGGLE
+A new Settings checkbox — "Show brilliant / blunder badges" — lets you keep engine analysis on (eval bar, quality stingers) while suppressing the over-board sticker badges. For creators who want the audio cue and eval bar without the visual clutter. The toggle is disabled when engine analysis itself is off.
 
-QUIET BEAT AFTER COMMENTARY
-A brief pause between your commentary and the next move so the action stays readable. Less whiplash, more breathing room.
+COMMENTARY BUBBLES ALWAYS POINT AT THE PIECE
+The face-cam thought-bubble tail dots now consistently point at the piece the speaker is talking about — the from-square on a "before" clip (the piece hasn't moved yet) and the to-square on an "after" clip (the piece has just arrived). The picture-in-picture corner picker avoids covering that square too, so the bubble never sits on top of the move it's discussing.
 
-SETTINGS
-New screen for managing your subscription (cancel or switch tiers without leaving the app), toggling the gold Studio home-screen icon on or off, and finding privacy and terms in one place.
-
-LIBRARY POLISH
-Long-press a video for a delete option with confirmation — in addition to the existing swipe-to-delete.
-
-BUG FIXES
-- Imports now handle chess.com PGN exports with blank Site/TimeControl tags.
-- Clearer error when you paste an archived master-games URL.
-- Video commentary now shows the animated waveform in sync with the audio.
+BUG FIXES AND POLISH
+The capture-dust puff no longer flashes back onto the board the moment voice or video commentary takes over — the burst either completes cleanly or is suppressed entirely when commentary is on screen. Cutscene audio now decodes reliably from the .mp4 container (the earlier path tried to read it as a bare audio file and silently failed on some devices). Plus a handful of smaller fixes across the export pipeline.
